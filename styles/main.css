@@ -83,3 +83,41 @@ main {
     font-weight: normal;
     text-transform: uppercase;
 }
+/* why section style */
+.why-card-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 273px);
+}
+.one-layout {
+    grid-row: span 2;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 107px 40px;
+}
+.two-layout {
+    grid-column: span 2;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px 40px;
+}
+.three-layout {
+    grid-column: span 2;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px 40px;
+}
+.four-layout {
+    grid-column: span 2;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px 40px;
+}
+.five-layout {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px 40px;
+}

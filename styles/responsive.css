@@ -87,7 +87,31 @@
   .about-card {
     width:100%;
   }
-  
+  /* why section responsive */
+  .why-card-container {
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 273px);
+  }
+  .one-layout {
+    padding: 40px 40px;
+    margin-left: 25px;
+  }
+  .two-layout {
+    padding: 40px 40px;
+    margin: 0px 25px;
+  }
+  .three-layout {
+    padding: 40px 40px;
+    margin:0px 25px;
+  }
+  .four-layout {
+    padding: 40px 40px;
+    margin:0px 25px;
+  }
+  .five-layout {
+    margin-left: 25px;
+  }
 
 }
 /* mobile device responsive end */
@@ -171,6 +195,32 @@
   .about-card {
     width:100%;
   }
+  /* why section responsive */
+  .why-card-container {
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 273px);
+  }
+  .one-layout {
+    padding: 40px 40px;
+    margin-left: 25px;
+  }
+  .two-layout {
+    padding: 40px 40px;
+    margin: 0px 25px;
+  }
+  .three-layout {
+    padding: 40px 40px;
+    margin:0px 25px;
+  }
+  .four-layout {
+    padding: 40px 40px;
+    margin:0px 25px;
+  }
+  .five-layout {
+    margin-left: 25px;
+  }
+  
 }
 /* medium device responsive end */
 /* large device responsive start */
