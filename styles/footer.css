@@ -2,3 +2,41 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+footer {
+    max-width: 1600px;
+    margin: 0px auto;
+    
+
+}
+.footer-container {
+    background: url(/assets/footer-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% auto;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 3.25rem;
+    font-weight: bold;
+    padding-top: 102px;
+    padding-bottom: 35px;
+}
+#footer-title-customize{
+    background: linear-gradient(to right top ,rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    color: transparent;
+    background-clip: text;
+    
+}
+.icon-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+.icon-one {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
