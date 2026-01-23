@@ -112,8 +112,46 @@
   .five-layout {
     margin-left: 25px;
   }
-
+  /* feature section responsive  */
+  .card-container {
+    display:grid ;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 0px 20px;
+  }
+  .card {
+    width: 100%;
+    
+  }
+  .container {
+    padding: 0px 20px;
+  }
+  .feature-title {
+    font-size: 32px;
+  }
+  .meet-title {
+    font-size: 32px;
+  }
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .write-container {
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+  }
+  .write-describe {
+    text-align: center;
+  }
+  
+  
+   
 }
+
+
 /* mobile device responsive end */
 /* medium device responsive start */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -220,6 +258,39 @@
   .five-layout {
     margin-left: 25px;
   }
+  /* feature section responsive  */
+  .card-container {
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 0px 20px;
+  }
+  .card {
+    width: 100%;
+    
+  }
+  .container {
+    padding: 0px 20px;
+  }
+  
+  .main-brfore {
+    margin-left: 20px;
+  }
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .write-container {
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+  }
+  .write-describe {
+    text-align: center;
+  }
+  
   
 }
 /* medium device responsive end */

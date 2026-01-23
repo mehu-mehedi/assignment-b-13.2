@@ -121,7 +121,7 @@ main {
     border-radius: 40px;
     padding: 40px 40px;
 }
-/* FEACTURE section style */
+/* feacture section style */
 .card {
    height: 440px;
    width: 380px;
@@ -137,3 +137,11 @@ main {
     align-items: center;
     justify-content: center;
 }
+.card-container {
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+    
+    /* grid grid-cols-3 gap-[30px] mb-[40px] */
