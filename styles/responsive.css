@@ -2,23 +2,182 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 /* mobile device responsive start */
 @media screen and (max-width:576px) {
+  /* navbar responsive */
+  .nav-container {
+    justify-content: space-around;
+    gap: 0px;
+    padding: 10px 0px;
+    align-items:center ;
+  }
+  .nav-title {
+    font-size: 2rem;
     
+  }
+  .nav-container > ul > li {
+    display: none;
+  }
+  #nav-btn {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  /* hero banner responsive */
+  .hero-container {
+    padding: 20px;
+    background-size:100% 100% ;
+  }
+  .image-container {
+    margin-top: 80px;
+  }
+  .image-one {
+    height: 50%;
+    width: 50%;
+  }
+  .image-two {
+    height: 50%;
+  }
+  #new {
+    padding: 5px 12px;
+    font-size: .75rem;
+    left: 61%;
+    top: 4%;
+  }
+  .hero-title {
+    font-size:2.5rem;
+
+  }
+  .hero-sub-title {
+    text-align: center;
+  }
+  .btn {
+    padding: 12px 12px;
+  }
+
+  /* about section responsive */
+  .mixed-container {
+     padding-bottom: 50px;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-sub-title {
+    padding: 0px 10px;
+  }
+  .about-describe {
+    padding: 0px 10px;
+  }
+  
+  
+  .hrz{
+    
+    width: 100%;
+    margin: 40px;
+  }
+  
+  
+  .about-card-container {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .about-card {
+    width:100%;
+  }
+  
+
 }
 /* mobile device responsive end */
 /* medium device responsive start */
 @media screen and (min-width:577px) and (max-width:992px) {
+   .nav-container {
+    justify-content: space-around;
+    gap: 0px;
+    padding: 10px 0px;
+    align-items:center ;
+  }
+  .nav-title {
+    font-size: 2.5rem;
     
+  }
+  .nav-container > ul > li {
+    display: none;
+  }
+  #nav-btn {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  /* hero banner responsive */
+  .hero-container {
+    padding: 20px;
+    background-size:100% 100% ;
+  }
+  .image-container {
+    margin-top: 40px;
+  }
+  .image-one {
+    height: 50%;
+    width: 50%;
+  }
+  .image-two {
+    height: 50%;
+  }
+  #new {
+    /* padding: 5px 12px;
+    font-size: .75rem; */
+    left: 61%;
+    top: 4%;
+  }
+  .hero-title {
+    font-size:3rem;
+
+  }
+  .hero-sub-title {
+    text-align: center;
+  }
+   /*about section responsive  */
+  .mixed-container {
+     padding-bottom: 80px;
+  }
+   
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-sub-title {
+    padding: 0px 10px;
+  }
+  .about-describe {
+    padding: 0px 10px;
+  }
+  
+  
+  .hrz{
+    
+    width: 100%;
+    margin: 40px;
+  }
+  
+  
+  .about-card-container {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+  }
+  .about-card {
+    width:100%;
+  }
 }
 /* medium device responsive end */
 /* large device responsive start */
 @media screen and (min-width:993px) and (max-width:1600px) {
-    
+    /* navbar responsive */
+    .hero-container {
+    background-size:100% 100% ;
+  }
 }
 /* large device responsive end */

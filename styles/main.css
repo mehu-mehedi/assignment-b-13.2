@@ -1,0 +1,85 @@
+#inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* about section styles */
+main {
+    max-width: 1600px;
+    margin: 0px auto;
+    
+}
+.about-section {
+    background-color: #1A0B2E;
+
+}
+.mixed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding-bottom: 120px;
+}
+.about-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+.about-title {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-sub-title {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: normal;
+     text-align: center;
+}
+.about-describe {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: normal;
+     text-align: center;
+}
+.hrz{
+    display: flex;
+    flex-direction: column;
+   justify-content:center ;
+    width: 1000px;
+    margin: 80px;
+
+}
+.hrz hr {
+    border: none;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.about-card-container {
+    max-width: 1200px;
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+}
+.about-card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 95px;
+    align-items: center;
+    
+}
+.about-card-title {
+    color: #00FF88;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.about-card-describe {
+     color: #FFFFFF;
+    font-size:1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
