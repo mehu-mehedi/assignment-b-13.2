@@ -88,6 +88,9 @@
     width:100%;
   }
   /* why section responsive */
+  .why-section {
+    padding: 60px 0px;
+  }
   .why-card-container {
     gap: 30px;
     grid-template-columns: repeat(1, 1fr);
@@ -113,6 +116,9 @@
     margin-left: 25px;
   }
   /* feature section responsive  */
+  .feature-section {
+    padding: 60px 0px;
+  }
   .card-container {
     display:grid ;
     grid-template-columns: repeat(1, 1fr);
@@ -139,13 +145,12 @@
     
   }
   .write-container {
-    width: 100% ;
     justify-content: center;
     align-items: center;
   }
   .write-describe {
     text-align: center;
-    width: 100% ;
+    width: 300px ;
   }
   /* footer section */
   .footer-title{
@@ -188,13 +193,13 @@
     
   }
   .nav-container > ul > li {
-    display: none;
+    display: block;
   }
   #nav-btn {
-    display: none;
+    display: block;
   }
   .hamburger {
-    display: block;
+    display: none;
   }
   /* hero banner responsive */
   .hero-container {
@@ -296,7 +301,7 @@
     padding: 0px 20px;
   }
   
-  .main-brfore {
+  .one-container {
     margin-left: 20px;
   }
   .main-container {
@@ -305,11 +310,12 @@
     
   }
   .write-container {
-    width: 100% ;
     justify-content: center;
     align-items: center;
+    
   }
   .write-describe {
+    width: 500px; 
     text-align: center;
   }
   /* footer section responsive */
