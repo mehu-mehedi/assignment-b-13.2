@@ -145,6 +145,28 @@
   }
   .write-describe {
     text-align: center;
+    width: 100% ;
+  }
+  /* footer section */
+  .footer-title{
+    
+    font-size: 2.25rem;
+    
+    padding-top: 55px;
+    padding-bottom: 35px;
+  }
+  .footer-container {
+    background: url(/assets/footer-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .icon-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding-bottom: 32px;
   }
   
   
@@ -289,6 +311,27 @@
   }
   .write-describe {
     text-align: center;
+  }
+  /* footer section responsive */
+  .footer-title{
+    
+    font-size: 3.25rem;
+    
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+  .footer-container {
+    background: url(/assets/footer-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .icon-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding-bottom: 32px;
   }
   
   
